@@ -1,0 +1,34 @@
+.app {
+  padding: 0;
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 10dvh;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  height: 10dvh;
+}
+
+@media (orientation: portrait) {
+
+  .app {
+    background: linear-gradient(127.5deg, var(--bg-dark) 50%, var(--bg-light));
+  }
+}
+
+@media (orientation: landscape) {
+
+  .app {
+    background: linear-gradient(161deg, var(--bg-dark) 50%, var(--bg-light));
+  }
+}
+

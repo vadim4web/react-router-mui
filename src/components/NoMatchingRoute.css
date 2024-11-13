@@ -1,0 +1,12 @@
+.no-matching-route {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.back-to-start {
+  font-size: 150%;
+}

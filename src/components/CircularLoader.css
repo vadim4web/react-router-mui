@@ -1,0 +1,12 @@
+.loader-container {
+  position: absolute;
+  left: 50dvw;
+  transform: translate(-50%, 0) scale(2);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: translate(-50%, 0) scale(2);
+  -moz-transform: translate(-50%, 0) scale(2);
+  -ms-transform: translate(-50%, 0) scale(2);
+  -o-transform: translate(-50%, 0) scale(2);
+}
