@@ -1,7 +1,11 @@
 import ReactLogo from '../assets/react.svg';
 import ReactRouterLogo from '../assets/react-router-mark-color.svg';
 import MUILogo from '../assets/MUI-logo.svg';
-import { FacebookIcon, LinkedInIcon, GithubIcon } from '../components/LinkIcons';
+import {
+  // FacebookIcon,
+  // LinkedInIcon,
+  GithubIcon
+} from '../components/LinkIcons';
 import renderHTMLspan from '../utils/renderHTML';
 import './Footer.css';
 
@@ -28,7 +32,7 @@ export default function Footer() {
 
       <div className='footer-contacts'>
         <section className='footer-links'>
-          <a
+          {/* <a
             href="https://www.facebook.com/bogdanovvad1m/"
             target="_blank"
             rel="noreferrer"
@@ -43,9 +47,9 @@ export default function Footer() {
             className="link-image"
           >
             <LinkedInIcon />
-          </a>
+          </a> */}
           <a
-            href="https://github.com/8ogdanovv"
+            href="https://github.com/1abcdesign"
             target="_blank"
             rel="noreferrer"
             className="link-image"
@@ -64,23 +68,23 @@ export default function Footer() {
           </span>
           {renderHTMLspan('&nbsp;')}
           <a
-            href="https://8ogdanovv.tilda.ws/"
+            href="https://abcdesign1.tilda.ws/"
             target="_blank"
             rel="noreferrer"
             title="Tilda templated portfolio landing"
           >
-            Bogdanov Vadim
+            Vadim Chervoniak-Bogdanov
           </a>
           {renderHTMLspan('&nbsp;')}
-            <span title="social media (e.g. TG, X etc.) nickname">@bogdanovvad1m</span>
+            <span title="social media (e.g. TG, X etc.) nickname">@abcdesign1</span>
           {renderHTMLspan('&nbsp;')}
           <a
-            href="https://bit.ly/2PDFcv"
+            href="https://bit.ly/1abcdesign"
             target="_blank"
             rel="noreferrer"
             title="PDF-like CV on drive.google shortened with bit.ly (color-scheme sensitive redirect)"
           >
-            https://bit.ly/2PDFcv
+            https://bit.ly/1abcdesign
           </a>
         </p>
       </div>

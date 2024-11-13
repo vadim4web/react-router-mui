@@ -12,7 +12,7 @@ export default defineConfig(({ command }) => {
     // command === 'build'
     return {
       plugins: [react()],
-      base: '/backendless-tabs-jsx/',
+      base: '/react-router-mui/',
       // build specific config
     };
   }
