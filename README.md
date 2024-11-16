@@ -1,13 +1,12 @@
-# backendless-tabs-jsx
-Test assignment for the JavaScript developer position at [backendless.com](backendless.com)  
-  
-This project serves as a template for a React-based application that implements tabs without backend integration. It showcases various components, including charts, lists, and tables, along with a navigation layout and a router component. The project utilizes modern web development tools and libraries such as React, React Router, Material-UI, and more.
+# React Router MUI Template
 
-![landscape](https://github.com/vadym4che/backendless-tabs-jsx/blob/main/docs/screenshot-localhost.png)
-![gh-pages](https://github.com/vadym4che/backendless-tabs-jsx/blob/main/docs/screenshot-gh-pages.png)
-![lazy-loading](https://github.com/vadym4che/backendless-tabs-jsx/blob/main/docs/screenshot-lazy-loading.png)
-![hover](https://github.com/vadym4che/backendless-tabs-jsx/blob/main/docs/screenshot-hover.png)
-![not-found](https://github.com/vadym4che/backendless-tabs-jsx/blob/main/docs/screenshot-not-found.png)
+This project is a template for a React-based application that uses a web-router-like navigation system with tabs. Each tab loads a specific component (like charts, lists, or tables) on demand, simulating a web router and providing dynamic subroutes without backend integration. Key libraries include React, React Router, and Material-UI.
+
+![landscape](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-localhost.png)
+![gh-pages](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-gh-pages.png)
+![lazy-loading](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-lazy-loading.png)
+![hover](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-hover.png)
+![not-found](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-not-found.png)
 
 ## Project Structure
 ```arduino
@@ -87,4 +86,4 @@ Additional Features
 12. react-router-dom: DOM bindings for React Router.
 
 ## Project Link
-You can access the project on GitHub Pages [here](https://vadym4che.github.io/backendless-tabs-jsx/dummyTable).
+You can access the project on GitHub Pages [here](https://1abcdesign.github.io/react-router-mui/dummyTable).
