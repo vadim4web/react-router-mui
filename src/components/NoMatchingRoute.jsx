@@ -14,9 +14,9 @@ function NoMatchingRoute() {
       style={computeHeight(showFrame, isLandscape, '40.5dvh', '43.5dvh', '73.5dvh', '76.5dvh')}
     >
       <h2>Nothing to see here!</h2>
-      <p className="back-link">
+      <p>
         {/* Navigate to the previous page */}
-        <button onClick={() => navigate(-1)}>Go Back</button>
+        <button onClick={() => navigate(-1)} className="back-link" >Go Back</button>
       </p>
     </div>
   );

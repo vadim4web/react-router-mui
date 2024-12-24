@@ -1,11 +1,7 @@
 import ReactLogo from '../assets/react.svg';
 import ReactRouterLogo from '../assets/react-router-mark-color.svg';
 import MUILogo from '../assets/MUI-logo.svg';
-import {
-  // FacebookIcon,
-  // LinkedInIcon,
-  GithubIcon
-} from '../components/LinkIcons';
+import { GithubIcon } from '../components/LinkIcons';
 import renderHTMLspan from '../utils/renderHTML';
 import './Footer.css';
 
@@ -32,22 +28,6 @@ export default function Footer() {
 
       <div className='footer-contacts'>
         <section className='footer-links'>
-          {/* <a
-            href="https://www.facebook.com/bogdanovvad1m/"
-            target="_blank"
-            rel="noreferrer"
-            className="link-image"
-          >
-            <FacebookIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/bogdanovvad1m/"
-            target="_blank"
-            rel="noreferrer"
-            className="link-image"
-          >
-            <LinkedInIcon />
-          </a> */}
           <a
             href="https://github.com/vadim4web"
             target="_blank"
@@ -68,15 +48,15 @@ export default function Footer() {
           </span>
           {renderHTMLspan('&nbsp;')}
           <a
-            href="https://abcdesign1.tilda.ws/"
+            href="https://vadim4web.github.io/"
             target="_blank"
             rel="noreferrer"
-            title="Tilda templated portfolio landing"
+            title="Vue portfolio landing"
           >
-            Vadim Chervoniak-Bogdanov
+            Vadim Chervoniak
           </a>
           {renderHTMLspan('&nbsp;')}
-            <span title="social media (e.g. TG, X etc.) nickname">@abcdesign1</span>
+            <span title="social media (e.g. TG, X etc.) nickname">@vadim4web</span>
           {renderHTMLspan('&nbsp;')}
           <a
             href="https://bit.ly/cv_view"
