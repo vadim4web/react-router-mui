@@ -2,11 +2,11 @@
 
 This project is a template for a React-based application that uses a web-router-like navigation system with tabs. Each tab loads a specific component (like charts, lists, or tables) on demand, simulating a web router and providing dynamic subroutes without backend integration. Key libraries include React, React Router, and Material-UI.
 
-![landscape](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-localhost.png)
-![gh-pages](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-gh-pages.png)
-![lazy-loading](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-lazy-loading.png)
-![hover](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-hover.png)
-![not-found](https://github.com/1abcdesign/react-router-mui/blob/main/docs/screenshot-not-found.png)
+![landscape](https://github.com/vadim4web/react-router-mui/blob/main/docs/screenshot-localhost.png)
+![gh-pages](https://github.com/vadim4web/react-router-mui/blob/main/docs/screenshot-gh-pages.png)
+![lazy-loading](https://github.com/vadim4web/react-router-mui/blob/main/docs/screenshot-lazy-loading.png)
+![hover](https://github.com/vadim4web/react-router-mui/blob/main/docs/screenshot-hover.png)
+![not-found](https://github.com/vadim4web/react-router-mui/blob/main/docs/screenshot-not-found.png)
 
 ## Project Structure
 ```arduino
@@ -86,4 +86,4 @@ Additional Features
 12. react-router-dom: DOM bindings for React Router.
 
 ## Project Link
-You can access the project on GitHub Pages [here](https://1abcdesign.github.io/react-router-mui/dummyTable).
+You can access the project on GitHub Pages [here](https://vadim4web.github.io/react-router-mui/dummyTable).

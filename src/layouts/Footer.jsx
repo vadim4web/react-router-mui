@@ -49,7 +49,7 @@ export default function Footer() {
             <LinkedInIcon />
           </a> */}
           <a
-            href="https://github.com/1abcdesign"
+            href="https://github.com/vadim4web"
             target="_blank"
             rel="noreferrer"
             className="link-image"
@@ -79,12 +79,12 @@ export default function Footer() {
             <span title="social media (e.g. TG, X etc.) nickname">@abcdesign1</span>
           {renderHTMLspan('&nbsp;')}
           <a
-            href="https://bit.ly/1abcdesign"
+            href="https://bit.ly/cv_view"
             target="_blank"
             rel="noreferrer"
             title="PDF-like CV on drive.google shortened with bit.ly (color-scheme sensitive redirect)"
           >
-            https://bit.ly/1abcdesign
+            https://bit.ly/cv_view
           </a>
         </p>
       </div>
